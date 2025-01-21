@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+.slide_one{
+    font: 'Nasalization Rg';
+}
+
+.mission_details{
+    border-color: rgba(240, 248, 255, 0);
+    font-family: 'Nasalization','Courier New', Courier, monospace;
+    font-size: 2vw;
+}
+
+.Sars_header{
+    font-family: 'Nasalization', 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    color: rgb(46, 44, 44);
+}
+
+.Sars_header_2{
+    font-family: 'Nasalization';
+    font-size: 3vw;
+}
+
+.Sars_header_Owl_Class{
+    font-size: 3vw;
+    font-family: 'Nasalization';
+    color: rgb(192, 192, 192);
+}
+
+.left_owl{
+    color: rgb(22, 21, 21);
+}
+
+.right_owl{
+    color: rgb(194, 228, 255);
+}
+

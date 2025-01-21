@@ -1,0 +1,312 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    overflow-x: hidden;
+}
+.b_item{
+    height: 685px;
+}
+.b_item img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.electron_headers{
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.img_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px;
+}
+.img_area img{
+    background-size: cover;
+    position: relative;
+    width: 23%;
+    filter: brightness(1.2);
+    border-bottom: 22px;
+    padding-bottom: 5%;
+}
+.img_area2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_area2 img{
+    background-size: cover;
+    position: relative;
+    width: 89%;
+    filter: brightness(1.2);
+    padding-bottom: 3%;
+}
+.electron_header{
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    font-family: 'Nulshock','Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: lighter;
+    margin-bottom: 3%;
+}
+.icon_color{
+    background: linear-gradient(45deg,#b300ff 15%,#f700ff);
+    background-clip: text;
+    color: transparent;
+}
+.icon_color:hover{
+    background: linear-gradient(45deg,#f700ff 15%,#b300ff);
+    background-clip: text;
+    color: transparent;
+}
+.sector2{
+    color: aliceblue;
+    font-family: 'Nulshock','Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+.table_electron{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+}
+.table_electron td{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.num{
+    font-size: 44px;
+}
+.text_num{
+    font-size: 17px;
+}
+.info_content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-bottom: 2px solid red;
+    text-align: center;
+    font-family: 'Nulshock','Courier New', Courier, monospace;
+}
+.num2{
+    font-size: 44px;
+    letter-spacing: 15px;
+}
+.text_num2{
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.carousel_border{
+    border-bottom: 3px solid red;
+}
+.c_item{
+    height: 685px;
+}
+.c_item img{
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+.electronPicHeader{
+    font-size: 44px;
+    font-family: 'Nulshock','Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    transform: translate(-45%,-1%);
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 25%;
+    background: linear-gradient(60deg,#ffffff,#000000);
+    background-clip: text;
+    color: transparent;
+}
+.table_electron2{
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+    transform: translate(-22%,-30%);
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Nulshock','Courier New', Courier, monospace;
+    margin-top: 15%;
+}
+
+
+.row_head{
+    width: 50%;
+    padding-bottom: 2%;
+    font-family: 'Nasalization','Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.row_sub{
+    width: 50%;
+    font-family: 'Nasalization','Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #000000;
+}
+
+
+.column_border{
+    border-right: 2px solid red;
+    border-spacing: 50px;
+    padding-top: 5%;
+}
+.row_border{
+    border-bottom: 2px solid red;
+    width: 100%;
+}
+.kick_stage_header{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 25%;
+    font-family: 'Nulshock','Courier New', Courier, monospace; 
+    font-size: 44px;  
+    letter-spacing: 7px;
+    padding-top: 15%;
+    text-align: left;
+    margin-left: 12%;
+}
+
+.kick_stage_list ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+}
+.electron_elements{
+  list-style-type: hehe;
+  width: 70%;
+}
+@counter-style hehe{
+    system: cyclic;
+    symbols: ➾;
+    suffix: "      ";
+}
+li::marker{
+    color: #b300ff;
+}
+/* li  :before {
+    content: "\F59E";
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+  margin-right: 5px;
+} */
+ .kick_stage_list{
+    margin-top: 5%;
+    align-items: right;
+    text-align: left;
+    display: block;
+    transform: translate(11%,0);
+    margin-bottom: 5px;
+    line-height: 30px;
+    font-family: 'Roboto','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+ }
+
+ .breaker{
+    line-height: 130px;
+ }
+
+.kick_stage_img{
+    height: 100%;
+    object-fit: cover;
+    width: 20%;
+    transform: translate(-2%);
+}
+.rutherford_row{
+    border-bottom: 3px solid red;
+    width: 100%;
+    height: max-content;
+}
+.rutherford_column{
+    border-left: 3px solid red;
+    padding-top: 5%;
+}
+.rutherford_img{
+    width: 740px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rutherford_heading{
+    font-family: 'Nulshock','Courier New', Courier, monospace; 
+    font-size: 44px;  
+    letter-spacing: 7px;
+    padding-top: 3%;
+    text-align: left;
+    transform: translate(15%,-29%);
+    /* border-left: 3px solid red; */
+}
+.rutherford_heading_underline{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 25%;
+}
+.rutherford_sub_text{
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.rutherford_heading_v2{
+    font-family: 'Nulshock','Courier New', Courier, monospace; 
+    font-size: 33px;  
+    letter-spacing: 7px;
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    transform: translate(-7%);
+    /* border-left: 3px solid red; */
+}
+.rutherford_heading_v2b{
+    font-family: 'Nulshock','Courier New', Courier, monospace; 
+    font-size: 33px;  
+    letter-spacing: 7px;
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    transform: translate(-10.5%);
+    /* border-left: 3px solid red; */
+}
+.rutherford_elements{
+    font-family: 'Roboto','Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transform: translate(17%);
+}
+
+
+.neutron_display{
+    border-bottom: 3px solid red;
+    width: 100%;
+}

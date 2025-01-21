@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="../css/about_us.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/about_us_custom_carousel.css">
+
+    <script src="../js/script.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3a3c3d;">
+      <a class="navbar-brand" href="../src/index.html">
+          <img src="../Assets/images.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Rocket Lab
+      </a>
+  
+      
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../src/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../src/index.html#Mission">Missions</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../src/spacedevelopment.html">Space Development</a>
+            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Vehicles
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../src/electron.html">Electron</a>
+              <a class="dropdown-item" href="../src/haste.html">Haste</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../src/neutron.html">Neutron</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../src/about_us.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide backdrop_test" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active b_item">
+            <img src="../Assets/About_Us/16.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block electron_headers">
+              <p class="electron_header">About us</p>
+              <div class="button_link">
+                <a href="#info_content">
+                  <i class="bi bi-box-arrow-down h1 icon_color"></i>
+                </a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="container-fluid sector2" id="sector2">
+      <table class="table_electron">
+        <tr>
+          <td><p class="num">53</p>
+            <br>
+          <p class="text_num">Launches to Date</p>
+          </td>
+          <td>
+            <p class="num">197</p>
+            <p class="text_num">Satellites successfully deployed</p>
+          </td>
+          <td>
+            <p class="num">ONLY</p>
+            <br>
+            <p class="text_num">reusable-capable small
+              launch vehicle</p>
+          </td>
+          <td>
+            <p class="num">3</p>
+            <br>
+            <p class="text_num">Dedicated launch pads</p>
+          </td>
+        </tr>
+      </table>
+    </div> -->
+    
+    <div class="container-fluid info_content" id="info_content">
+      <p class="num2">Rocket Lab is an end-to-end space company delivering reliable launch services, 
+        spacecraft, satellite components, and on-orbit management.
+      </p>
+      
+    </div>
+
+    <!-- <div id="electronCarousel" class="carousel slide carousel_border" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active c_item">
+          <img src="../Assets/Electron/RocketLab-F9-SimonMoffatt-SamToms-LowRes4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="electronPicHeader">Overview</p>
+            <table class="table_electron2">
+              <tr>
+                <td class="row_head">Height</td>
+                <td>18 m/ 59 ft</td>
+              </tr>
+              <tr>
+                <td class="row_head">Diamater</td>
+                <td>1.2 m/ 3.9 ft</td>
+              </tr>
+              <tr>
+                <td class="row_head">Stages</td>
+                <td>2+ Kick Stage</td>
+              </tr>
+              <tr>
+                <td class="row_head">Wet mass</td>
+                <td>13,000 kg/ 28,600 lb</td>
+              </tr>
+              <tr>
+                <td class="row_head">Payload to leo</td>
+                <td>300 kg/ 661 lb</td>
+              </tr>
+              <tr>
+                <td class="row_head">Structure</td>
+                <td>Carbon Composite</td>
+              </tr>
+              <tr>
+                <td class="row_head">Propellant</td>
+                <td>LOX/ Kerosene</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <div class="container-fluid kick_stage">
+      <div class="row row_border" style="text-align: center;">
+        <div class="col-sm column_border">
+          <h2 class="kick_stage_header">The History</h2>
+          <br>
+          <p class="kick_stage_body">Space has defined some of humanity’s greatest achievements and it continues to shape our future. 
+            A future that Rocket Lab is engineering into reality.<br><br>
+
+            As a global leader in launch and space systems, we are transforming the way we access and use space. Our capabilities span the space economy, 
+            including satellite design and manufacture, space software and components, and reliable launch services.<br><br>
+            
+            We started with small launch, pioneering an industry-defining launch vehicle, Electron, now the second most frequently
+             launched U.S. rocket. But we haven’t stopped at small satellite launch. Right now, we’re developing the next generation
+              large launch vehicle, Neutron, to launch the constellations and large spacecraft missions of the future that will 
+              provide vital data and services to Earth.<br><br>
+            
+            Recognizing that launch is only one part of truly opening access to space, we deliver complete spacecraft solutions too. Rocket Lab is a premier 
+            supplier of flight-proven satellites, subsystems and spacecraft components. The company’s extensive line of small 
+            and medium class spacecraft platforms support a wide range of mission profiles for the commercial, civil and defense markets. 
+            At a component level, Rocket Lab spacecraft technology spans space solar power, advanced composite structures, flight software, 
+            star trackers, reaction wheels, separation systems, and radios. Rocket Lab space systems technology has enabled more than 1,700
+             missions globally, from complex interplanetary scientific spacecraft like the James Webb Space Telescope to critical communications 
+             constellations.<br><br>
+            
+            Headquartered in Long Beach, California, Rocket Lab operates facilities including advanced manufacturing and mission operations centers in Virginia, 
+            New Mexico, Colorado, Maryland, Toronto and New Zealand.  
+          </p>
+        </div>
+        <div class="col-sm">
+          <div class="container-fluid b_container">
+            <img src="../Assets/About_Us/candyfloss_v2_v2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="containrer-fluid rutherford">
+      <div class="row rutherford_row" style="text-align: center;">
+        <div class="col-sm rutherford_img">
+          <img src="../Assets/About_Us/about-encap.jpg" alt="" class="rutherford_img">
+        </div>
+        <div class="col-sm rutherford_column">
+          
+          <p class="rutherford_sub_text">With our launch vehicles and spacecraft, we’ve simplified space, 
+            making it easy and affordable for companies, scientists, researchers, governments, entrepreneurs, 
+            and students alike, to get their ideas to orbit. We’ve opened up a solar system of possibilities 
+            for innovation, exploration and infrastructure in space to make for a better world down here on Earth.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid sector2" id="sector2">
+      <table class="table_electron">
+        <tr>
+          <td><p class="num">53</p>
+            <br>
+          <p class="text_num">Launches to Date</p>
+          </td>
+          <td>
+            <p class="num">197</p>
+            <p class="text_num">Satellites successfully deployed</p>
+          </td>
+          <td>
+            <p class="num">ONLY</p>
+            <br>
+            <p class="text_num">reusable-capable small
+              launch vehicle</p>
+          </td>
+          <td>
+            <p class="num">3</p>
+            <br>
+            <p class="text_num">Dedicated launch pads</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- <div class="container-fluid electron_reusability">
+      <div class="row row_border2" style="text-align: center;">
+        <div class="col-sm column_border">
+            <h2 class="reuability_header">Reusability</h2>
+            <p class="reusability_sub">Electron is the only reusable orbital-class small rocket. Capturing and reflying Electron’s
+               first stage enables higher launch frequency without expanding production and lowers launch costs.
+            </p>
+        </div>
+        <div class="col-sm" id="column_video">
+          <video autoplay muted loop plays-inline id="reuse_video">
+            <source src="../Assets/Electron/Rocket Lab _ Mid-Air Recovery Demo - Rocket Lab (1080p, h264, youtube).mp4" type="video/mp4"> 
+          </video>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="partners">
+      <h4>Our Customers</h4>
+      <p class="partner_text">More than 180 satellites deployed to orbit for our customers across commercial, 
+        civil, defense and academic sectors.
+      </p>
+      <div class="container_images">
+          <div class="row">
+            <div class="col-sm">
+              <img src="../Assets/About_Us/nasa-logo-web-rgb.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/" alt="">
+              <img src="../Assets/About_Us/space-force-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/darpa-logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="row row_images">
+            <div class="col-sm">
+              <img src="../Assets/About_Us/nro-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/blacksky-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/spaceflight-logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="row row_images">
+            <div class="col-sm">
+              <img src="../Assets/About_Us/canon-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/capella-space-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/tyvak-logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="row row_images">
+            <div class="col-sm">
+              <img src="../Assets/About_Us/planet-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/trisept-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/spire-logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="row row_images">
+            <div class="col-sm">
+              <img src="../Assets/About_Us/fleet-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/unseenlabs-logo.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img src="../Assets/About_Us/astro-logo.png" alt="">
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-indicators carousel-indicators_v2">
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">2006</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="1">2009</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2">2010</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="3">2011</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="4">2012</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="5">2013</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="6">2014</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="7">2015</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="8">2016</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="9">2017</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="10">2018</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="11">2019</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="12">2020</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="13">2021</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="14">2022</button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="15">2023</button>
+      </div>
+      <div class="carousel-inner">
+
+
+        <div class="carousel-item active p_item">
+          <img src="../Assets/About_Us/Timeline/timeline-2006.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Rocket Lab founded.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/2009.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Atea-1 launch – Rocket Lab became the first private company in the Southern Hemisphere to reach space.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/sddefault.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Successfully demonstrated new Viscous Liquid Monopropellant for DARPA.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/timeline-2011.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Commercial release of Instant Eyes UAV.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/timeline-2012.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Successful flight demo of DARPA Viscous Liquid Monopropellant.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="../Assets/About_Us/Timeline/timeline-2013.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>First Rutherford Engine Hot Fire – first 3D printed, electric pump-fed engine.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us//Timeline/52745976851_873441d1aa_o-scaled.jpg.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Electron launch vehicle announced.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/timeline-2015.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Construction begins on Launch Complex 1 in Mahia, New Zealand – world’s first private orbital launch site.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/Still-Testing-8.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Construction on Launch Complex 1 completed.</p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/0142.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Electron launched to space for the first time with the ‘It’s a Test’ mission.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item p_item ">
+          <img src="../Assets/About_Us/Timeline/timeline-2018.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block long">
+            <p>Rocket Lab successfully launched to orbit for the first time and deploys customer payloads. Wallops Flight Facility in Virginia, 
+              USA, selected as location of Rocket Lab Launch Complex 2. First launch for NASA, one of three orbital missions by Electron this year.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item p_item ">
+          <img src="../Assets/About_Us/Timeline/timeline-2019.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block long">
+            <p>Completed six successful Electron missions including launches for DARPA, Space Test Program, Unites States Air Force Space Command,
+               Astro Digital, BlackSky, Unseenlabs and more. Completed construction on Rocket Lab's second launch site, Launch Complex 2, 
+               in Wallops Island, Virginia, USA.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item p_item ">
+          <img src="../Assets/About_Us/Timeline/timeline-2020.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block long">
+            <p>Completed seven successful Electron missions including launches for the NRO, Capella Space, Planet, Canon and more. 
+              Deployed first Rocket Lab-built Photon satellite to orbit, acquired Sinclair Interplanetary and successfully recovered a 
+              flown Electron first stage.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/Rocket-Lab-Nasdaq-Bell-Ringing-small2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block long">
+            <p>Completed a rideshare mission includeding the Rocket Lab Photon Pathstone spacecraft that acted as risk 
+               reduction spacecraft for the upcoming CAPSTONE mission to the Moon. Announced Neutron, Rocket Lab's new large
+                reusable rocket. Debuted on the NASDAQ stock exchange as a publicly listed company. Awarded the ESCAPADE Photon 
+                 mission to Mars.
+              </p>
+          </div>
+        </div>
+
+        <div class="carousel-item p_item">
+          <div class="carousel-caption d-none d-md-block carousel-caption_2021">
+            <p>Annual launch record broken with nine Electron missions including launches for the NRO, NOAA, 
+              and with payloads from Sweden, Japan, Germany, Scotland, Finland, New Zealand, France, and the U
+              nited States. Successfully launched to the Moon with Electron and Photon for the NASA CAPSTONE mission.
+               Opened Pad B at Launch Complex 1 and launched its first mission within a week. Completed fastest launch
+                turnaround of 15 days between missions. Selected Virginia for Neutron launch site and extensive manufacturing 
+                complex. Opened Neutron Archimedes engine test facility at NASA Stennis Space Center. Attempted two mid-air 
+                helicopter captures of Electron after launch. Successfully completed first test fire of a reused Rutherford engine
+              </p>
+          </div>
+        </div>
+        
+
+        <div class="carousel-item p_item">
+          <img src="../Assets/About_Us/Timeline/F24-The-Owls-Night-Continues-001-LGE.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Successfully launched Electron's inaugural mission from Launch Complex 2 on Wallops Island, Virginia</p>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+
+
+    <div class="contactus">
+      <h2>Get in touch</h2>
+      <table class="contact_us">
+        <tr>
+          <td>
+            <a href="https://www.facebook.com/RocketLabUSA/">
+            <i class="bi bi-facebook"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://twitter.com/rocketlab">
+            <i class="bi bi-twitter-x"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.linkedin.com/company/rocket-lab-limited">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.youtube.com/user/RocketLabNZ">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.flickr.com/photos/rocketlab">
+              <i class="bi bi-dice-2"></i>
+            </a>
+          </td>
+        </tr>
+      </table>
+
+</body>
+</html>

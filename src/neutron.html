@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="../css/neutron.css">
+    <link rel="stylesheet" href="../css/progress.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+
+    <script src="../js/script_card.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3a3c3d;">
+        <a class="navbar-brand" href="../src/index.html">
+            <img src="../Assets/images.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Rocket Lab
+          </a>
+    
+        
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../src/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/index.html#Mission">Missions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../src/spacedevelopment.html">Space Development</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Vehicles
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../src/electron.html">Electron</a>
+                <a class="dropdown-item" href="../src/haste.html">Haste</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../src/neutron.html">Neutron</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../src/about_us.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide backdrop_test" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active b_item">
+            <img src="../Assets/Neutron/Backdrop_v2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block electron_headers">
+              <div class="img_area" style="align-items: center;">
+                <img src="../Assets/Neutron/Neutron_logo.png" alt="">
+                <!-- <img src="../Assets/Electron/Electron_rocket_logo.svg copy.png" alt=""> -->
+              </div>
+              <div class="img_area2" style="align-items: center;">
+                <!-- <img src="../Assets/Electron/electron_logo.png" alt=""> -->
+                <img src="../Assets/Neutron/Neutron_name.png" alt="">
+              </div>
+              <br>
+              <p class="electron_header">Mega Constellation Launcher</p>
+              <div class="button_link">
+                <a href="#sector2">
+                  <i class="bi bi-box-arrow-down h1 icon_color"></i>
+                </a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid sector2" id="sector2">
+      <table class="table_electron">
+        <tr>
+          <td><p class="num">13,000</p>
+            <br>
+          <p class="text_num">Kilograms to Leo</p>
+          </td>
+          <td>
+            <p class="num">1,500</p>
+            <br>
+            <p class="text_num">Kilograms To Mars/ Venus</p>
+          </td>
+          <td>
+            <p class="num">Reusable</p>
+            <br>
+            <p class="text_num">launch again and again</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container-fluid info_content">
+      <p class="num2">Your mission, your way</p>
+      <p class="text_num2">Reliable and cost-effective launch services for constellation deployment,
+        cargo resupply, interplanetary missions.</p>
+    </div>
+
+    <div id="electronCarousel" class="carousel slide carousel_border" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active c_item">
+          <img src="../Assets/Neutron/neutron-2023.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="electronPicHeader">Overview</p>
+            <table class="table_electron2">
+              <tr>
+                <td class="row_head">Height</td>
+                <td class="row_sub">18 m/ 59 ft</td>
+              </tr>
+              <tr>
+                <td class="row_head">Diamater</td>
+                <td class="row_sub">1.2 m/ 3.9 ft</td>
+              </tr>
+              <tr>
+                <td class="row_head">Stages</td>
+                <td class="row_sub">2+ Kick Stage</td>
+              </tr>
+              <tr>
+                <td class="row_head">Wet mass</td>
+                <td class="row_sub">13,000 kg/ 28,600 lb</td>
+              </tr>
+              <tr>
+                <td class="row_head">Payload to leo</td>
+                <td class="row_sub">300 kg/ 661 lb</td>
+              </tr>
+              <tr>
+                <td class="row_head">Structure</td>
+                <td class="row_sub">Carbon Composite</td>
+              </tr>
+              <tr>
+                <td class="row_head">Propellant</td>
+                <td class="row_sub">LOX/ Kerosene</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid kick_stage">
+      <div class="row row_border" style="text-align: center;">
+        <div class="col-sm column_border">
+          <h2 class="kick_stage_header">Features</h2>
+          <br>
+          <ul class="kick_stage_list" >
+            <li class="electron_elements">Designed for mega constellation deployment, deep space missions, and human spaceflight</li>
+            <p class="breaker"></p>
+            <li class="electron_elements">Higher altitude deployment</li>
+            <p class="breaker"></p>
+            <li class="electron_elements">Hosted payload support</li>
+            <p class="breaker"></p>
+            <li class="electron_elements">Multiple trajectory changes</li>
+            <p class="breaker"></p>
+            <li class="electron_elements">Sustained low altitude orbits</li>
+            <p class="breaker"></p>
+            <li class="electron_elements">Deorbiting payloads to eliminate space debris</li>
+          </ul>
+        </div>
+        <div class="col-sm kick_stage_img">
+          <img src="../Assets/Neutron/neutron-deploy-front.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="containrer-fluid rutherford">
+      <div class="row rutherford_row" style="text-align: center;">
+        <div class="col-sm rutherford_img">
+          <img src="../Assets/Neutron/neutron-blue-flame.jpg" alt="" class="rutherford_img">
+        </div>
+        <div class="col-sm rutherford_column">
+          <h2 class="rutherford_heading"><span class="rutherford_heading_underline">Performance</span></h2>
+          <p class="rutherford_sub_text">Neutron will feature the new Archimedes Engine</p>
+          <h2 class="rutherford_heading_v2b">First stage</h2>
+          <br>
+          <ul style="text-align: left;" class="rutherford_elements">
+            <li class="electron_elements">9 Sea-level Rutherford Engines</li>
+            <li class="electron_elements">Lift-off Thrust: 190 kN (43,000 lbf)</li>
+            <li class="electron_elements">Peak Thrust: 224 kN (50,600 lbf)</li>
+            <li class="electron_elements">ISP: 311 seconds</li>
+          </ul>
+          <h2 class="rutherford_heading_v2">Second Stage</h2>
+          <br>
+          <ul style="text-align: left;" class="rutherford_elements">
+            <li class="electron_elements">Single Vacuum Rutherford Engine</li>
+            <li class="electron_elements">Total Thrust: 25.8 kN (5,800 lbf)</li>
+            <li class="electron_elements">ISP: 343 seconds</li>
+          </ul>
+        </div>
+    </div>
+
+
+    
+    </div>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide neutron_display" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Assets/Neutron/neutron-deploy.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <section class="progress">
+                    <h2 class="heading_progress">Path to lift-Off</h2>
+                    <button class="pre-btn"><img src="../Assets/Neutron/arrow_left.png" alt=""></button>
+                    <button class="pre-btn"><img src="../Assets/Neutron/arrow_right.png" alt=""></button>
+                    <div class="progress_container">
+                        <div class="progress_card">
+                            <div class="progress_image">
+                                <img src="../Assets/Neutron/stage1.svg" alt="">
+                            </div>
+                            <div class="progress_info">
+                                <h2 class="progress_brand">Stage 2 build</h2>
+                                <p class="progress_description">Short lines</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div> -->
+    
+    
+        <!-- <div class="progress_container">
+        <div class="wrapper">
+            <i class="bi bi-caret-left"></i>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-1-translated.png" alt=""> </div>
+                    <h2>Stage 2 Build</h2>
+                    <br>
+                    <span>First full-scale carbon composite tank built using advanced manufacturing methods</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-2-translated.png" alt=""> </div>
+                    <h2>Structural and Cryogenic Testing</h2>
+                    <span>Neutron’s carbon composite second stage to complete a barrage of structural tests in preparation for flight.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-3-translated.png" alt=""> </div>
+                    <h2>Archimedes Engine Build</h2>
+                    <span>First Archimedes development engine completed.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-4-translated.png" alt=""> </div>
+                    <h2>Hardware-in-the-Loop Flight to Orbit</h2>
+                    <span>Testing of all avionics and communications devices with critical onboard software and GNC algorithms.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-5-translated.png" alt=""> </div>
+                    <h2>First Archimedes Engine Hot Fire</h2>
+                    <span>Archimedes to breathe fire at Rocket Lab’s Propulsion Test Complex within NASA Stennis Space Center.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-6-translated.png" alt=""> </div>
+                    <h2>Flight Mechanisms Test Program</h2>
+                    <span>Testing of critical flight mechanisms including separation systems, fairing actuation, control surfaces and actuators.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-7-translated.png" alt=""> </div>
+                    <h2>Stage 1 Build</h2>
+                    <span>Full-scale carbon composite stage 1 tank built using advanced manufacturing methods.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-8-translated.png" alt=""> </div>
+                    <h2>Launch Complex 3 Complete</h2>
+                    <span>Neutron’s launch site at the Mid-Atlantic Regional Spaceport within NASA’s Wallops Flight Facility in Virginia complete.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-9-translated.png" alt=""> </div>
+                    <h2>Stage 2 Static Fire</h2>
+                    <span>Hot fire exercising the Archimedes engine and all second stage systems. Testing like we would fly.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-10-translated.png" alt=""> </div>
+                    <h2>Stage 1 Static Fire</h2>
+                    <span>Hot fire exercising the cluster of 9 x Archimedes engine and all first stage systems. Testing like we would fly.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-11-translated.png" alt=""> </div>
+                    <h2>Final Integration</h2>
+                    <span>Full flight vehicle complete and ready for flight.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-12-translated.png" alt=""> </div>
+                    <h2>Wet Dress Rehearsal</h2>
+                    <span>Final systems checks before first launch.</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="../Assets/Neutron/icon-13-translated.png" alt=""> </div>
+                    <h2>LAUNCH</h2>
+                    <span>Neutron will take to the skies, ushering in a new era of space access.</span>
+                </li>
+            </ul>
+            <i class="bi bi-caret-right"></i>
+        </div>
+    </div> -->
+
+    <!-- <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-1-translated.png" alt=""> 
+                                    <h2>Stage 2 Build</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            First full-scale carbon composite tank built using advanced manufacturing methods
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-2-translated.png" alt=""> 
+                                    <h2>Structural and Cryogenic Testing</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Neutron’s carbon composite second stage to complete a barrage of structural tests in preparation for flight.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-3-translated.png" alt=""> 
+                                    <h2>Archimedes Engine Build</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                        First Archimedes development engine completed.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-4-translated.png" alt=""> 
+                                    <h2>Hardware-in-the-Loop Flight to Orbit</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Testing of all avionics and communications devices with critical onboard software and GNC algorithms.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-5-translated.png" alt=""> 
+                                    <h2>First Archimedes Engine Hot Fire</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Archimedes to breathe fire at Rocket Lab’s Propulsion Test Complex within NASA Stennis Space Center.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-6-translated.png" alt=""> 
+                                    <h2>Flight Mechanisms Test Program</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Testing of critical flight mechanisms including separation systems, fairing actuation, control surfaces and actuators.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="box front">
+                                <img src="../Assets/Neutron/icon-7-translated.png" alt=""> 
+                                <h2>Hardware-in-the-Loop Flight to Orbit</h2>
+                            </div>
+                            <div class="box back">
+                                <span class="fa fa-quote-left">
+                                    <p>
+                                        Testing of all avionics and communications devices with critical onboard software and GNC algorithms.
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="box front">
+                                <img src="../Assets/Neutron/icon-8-translated.png" alt=""> 
+                                <h2>First Archimedes Engine Hot Fire</h2>
+                            </div>
+                            <div class="box back">
+                                <span class="fa fa-quote-left">
+                                    <p>
+                                        Archimedes to breathe fire at Rocket Lab’s Propulsion Test Complex within NASA Stennis Space Center.
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="box front">
+                                <img src="../Assets/Neutron/icon-9-translated.png" alt=""> 
+                                <h2>Flight Mechanisms Test Program</h2>
+                            </div>
+                            <div class="box back">
+                                <span class="fa fa-quote-left">
+                                    <p>
+                                        Testing of critical flight mechanisms including separation systems, fairing actuation, control surfaces and actuators.
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"></div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-10-translated.png" alt=""> 
+                                    <h2>Hardware-in-the-Loop Flight to Orbit</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Testing of all avionics and communications devices with critical onboard software and GNC algorithms.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-11-translated.png" alt=""> 
+                                    <h2>First Archimedes Engine Hot Fire</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Archimedes to breathe fire at Rocket Lab’s Propulsion Test Complex within NASA Stennis Space Center.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="box front">
+                                    <img src="../Assets/Neutron/icon-12-translated.png" alt=""> 
+                                    <h2>Flight Mechanisms Test Program</h2>
+                                </div>
+                                <div class="box back">
+                                    <span class="fa fa-quote-left">
+                                        <p>
+                                            Testing of critical flight mechanisms including separation systems, fairing actuation, control surfaces and actuators.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                
+                <div class="container_progress">
+                    <div class="wrapper">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-1-translated.png" alt="">
+                                <p>First full-scale carbon composite tank built using 
+                                    advanced manufacturing methods
+                                </p>
+                                <h4>Stage 2 Build</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-2-translated.png" alt="">
+                                <p>Neutron’s carbon composite second stage to complete 
+                                    a barrage of structural tests in preparation for flight.
+                                </p>
+                                <h4>Structural and Cryogenic Testing</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-3-translated.png" alt="">
+                                <p>First Archimedes development engine completed.
+                                </p>
+                                <h4>Archimedes Engine Build</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                
+                <div class="container_progress">
+                    <div class="wrapper">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-4-translated.png" alt="">
+                                <p> Testing of all avionics and communications devices with critical onboard 
+                                    software and GNC algorithms.
+                                </p>
+                                <h4>Hardware-in-the-Loop Flight to Orbit</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-5-translated.png" alt="">
+                                <p>Archimedes to breathe fire at Rocket Lab’s Propulsion
+                                     Test Complex within NASA Stennis Space Center.
+                                </p>
+                                <h4>First Archimedes Engine Hot Fire</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-6-translated.png" alt="">
+                                <p>First Archimedes development engine completed.
+                                </p>
+                                <h4 class="h4sub">Archimedes Engine Build</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                
+                <div class="container_progress">
+                    <div class="wrapper">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-7-translated.png" alt="">
+                                <p> Full-scale carbon composite stage 1 tank built using advanced manufacturing methods.
+                                </p>
+                                <h4  class="h4sub">Stage 1 Build</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-8-translated.png" alt="">
+                                <p>Neutron’s launch site at the Mid-Atlantic Regional Spaceport within 
+                                    NASA’s Wallops Flight Facility in Virginia complete.
+                                </p>
+                                <h4  class="h4sub">Launch Complex 3 Complete</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-9-translated.png" alt="">
+                                <p>Hot fire exercising the Archimedes engine and all second stage systems. Testing like we would fly.
+                                </p>
+                                <h4 class="h4sub_2">Stage 2 Static Fire</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                
+                <div class="container_progress">
+                    <div class="wrapper">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-10-translated.png" alt="">
+                                <p> Hot fire exercising the cluster of 9 x Archimedes engine and all first stage systems. 
+                                    Testing like we would fly.
+                                </p>
+                                <h4  class="h4sub_2">Stage 1 Static Fire</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-11-translated.png" alt="">
+                                <p>Full flight vehicle complete and ready for flight.
+                                </p>
+                                <h4  class="h4sub_2">Final Integration</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+        
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-12-translated.png" alt="">
+                                <p>Final systems checks before first launch.
+                                </p>
+                                <h4 class="h4sub_2">Wet Dress Rehearsal</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                
+                <div class="container_progress">
+                    <div class="wrapper">
+                        <div class="cards">
+                            <div class="card">
+                                <img src="../Assets/Neutron/icon-13-translated.png" alt="">
+                                <p> Neutron will take to the skies, ushering in a new era of space access.
+                                </p>
+                                <h4  class="h4sub_2">LAUNCH</h4>
+                                <i class="fa fa-quote-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+
+
+
+
+</body>
+</html>
