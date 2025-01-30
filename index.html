@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Lab</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="../css/style1.css">
+
+    <link rel="stylesheet" href="../css/buttons.css">
+
+    <link rel="stylesheet" href="../css/navbar.css">
+
+    <script src="../js/script.js"></script>
+
+    
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Image and text -->
+
+
+    <!--The navbar-dark makes the words on the navbar light while navbar-light makes the text dark-->
+    <!--bg-dark makes the navbar dark... so....-->
+    <!--For a fixed nav bar-->
+    <!--<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3a3c3d;">-->
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3a3c3d;">
+        <a class="navbar-brand" href="../src/index.html">
+            <img src="../Assets/images.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Rocket Lab
+          </a>
+    
+        
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../src/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/index.html#Mission">Missions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../src/spacedevelopment.html">Space Development</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Vehicles
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../src/electron.html">Electron</a>
+                <a class="dropdown-item" href="../src/haste.html">Haste</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../src/neutron.html">Neutron</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../src/about_us.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+  <!--for a container-->
+  <!--<div class="container-fluid">-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3500" data-pause="false">
+          <img src="../Assets/F17-LiftOff_test2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Launching the Future of Space Exploration</h5>
+            <p><i>Pioneering small satellite launches with precision and reliability for a new era of discovery.</i></p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="3500" data-pause="false">
+          <img src="../Assets/APF_test2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Redefining Rapid Deployment</h5>
+            <p><i>Experience unmatched speed from concept to orbit with our agile launch services.</i></p>
+          </div>
+        </div>
+        <div class="carousel-item custom-slide" data-interval="3500" data-pause="false" data-keyboard="true">
+          <img src="../Assets/They-Go-Up-So-Fast-Electron-Rocket_test2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><b></b>Tailored Spacecraft Solutions</b></h5>
+            <p class="gradient_text"><i>Offering end-to-end spacecraft design and manufacturing for your unique mission.</i></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  <!--</div>-->
+<hr>
+  <div class="container" id="Mission" name="Mission">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <img src="../Assets/F51-Capella-Sky-Full-Of-SARs-Patch (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">A SKY FULL OF SAR'S</h5>
+            <hr>
+            <div class="text-center">
+              <a class="btn btn-info" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Expand</a>
+            </div>
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  <p class="card-text" style="text-align: justify;">Rocket Lab launched a dedicated mission for Capella Space, a provider of SAR imagery data and solutions for government and commercial applications.<br><br>
+                    ‘A Sky Full of SARs’ was Rocket Lab’s fifth launch overall for Capella Space across multiple launch contracts beginning from 2020. 
+                    The mission deployed Capella’s Acadia-3 SAR satellite, a synthetic aperture 
+                    radar satellite for Earth imagery and observation, to a mid-inclination 615km circular orbit to add to Capella’s 
+                    existing SAR satellite constellation in low Earth orbit. 
+                  </p>
+                <a href="../src/Sars_web.html" class="btn btn-outline-info">Learn More</a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <img src="../Assets/F51-RL-Synspective-OwlForOne-Patch.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">"Owl for One, One for Owl"</h5>
+            <hr>
+            <div class="text-center">
+              <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Expand</button>
+            </div>
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  <p class="card-text" style="text-align: justify;">Rocket Lab launched a dedicated mission for Synspective, a Japanese Earth observation company deploying a 
+                    constellation of synthetic aperture radar (SAR) satellites designed to deliver imagery that can detect millimetre-level 
+                    changes to the Earth’s surface from space. <br><br>
+                    The “Owl for One, One for Owl” mission was our 5th launch for Synspective and our 51st launch overall.
+                  </p>
+                  <a href="../src/An_owl.html" class="btn btn-outline-info">Learn More</a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <img src="../Assets/F50-Kineis-1-Toulouse.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">No Time Toulouse</h5>
+            <hr>
+            <div class="text-center">
+              <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Expand</button> 
+            </div>
+              <div class="collapse multi-collapse" id="multiCollapseExample3">
+                <div class="card card-body">
+                  <p class="card-text" style="text-align: justify;">The ‘No Time Toulouse’ mission was our milestone 50th Electron launch that launched on June 19th, 2024 from Rocket Lab 
+                    Launch Complex 1 in Mahia, New Zealand. <br><br>
+                    The mission was the first of five dedicated Electron launches for Kinéis, a company backed by private and 
+                    public investors including the French government’s space agency CNES (Centre National d'Études Spatiales) and CLS 
+                    (Collecte Localisation Satellites) an international space-based solutions provider, to improve global IoT connectivity. Kinéis’ 
+                    new constellation will connect any object anywhere in the world and guarantee the transmission of targeted and useful data to users,
+                     in near-real time, with low energy consumption with more powerful 30kg-class nanosats that integrate IoT technology.<br>
+                     The constellation also includes a second mission: a ship-tracking Automatic Identification System (AIS). Once deployed, 
+                     these technologies will allow Kinéis to expand across multiple industries and scale from 20,000 devices connected to millions.               
+                  </p>
+                  <a href="../src/Toulette.html" class="btn btn-outline-info"  style="text-align: center;">Learn More</a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+</body>
+</html>
